@@ -69,10 +69,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex1_42.clj" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ex1_42.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sec1_3/ex1_42.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.3383948">
+            <state line="8" column="0" selection-start="86" selection-end="128" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ex1_43.clj" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sec1_3/ex1_43.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.39045554">
               <folding />
             </state>
           </provider>
@@ -91,6 +100,7 @@
         <option value="$PROJECT_DIR$/src/sec1_1/sec_1_1_8.clj" />
         <option value="$PROJECT_DIR$/src/sec1_3/ex1_41.clj" />
         <option value="$PROJECT_DIR$/src/sec1_3/ex1_42.clj" />
+        <option value="$PROJECT_DIR$/src/sec1_3/ex1_43.clj" />
       </list>
     </option>
   </component>
@@ -424,7 +434,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sec1_3/ex1_42.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.3383948">
+        <state line="8" column="0" selection-start="86" selection-end="128" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sec1_3/ex1_43.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.39045554">
           <folding />
         </state>
       </provider>
