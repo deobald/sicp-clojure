@@ -60,10 +60,19 @@
   <component name="FileColors" enabled="false" enabledForTabs="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ex1_41.clj" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ex1_41.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sec1_3/ex1_41.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.26030368">
+            <state line="1" column="0" selection-start="19" selection-end="50" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ex1_42.clj" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sec1_3/ex1_42.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.3383948">
               <folding />
             </state>
           </provider>
@@ -79,8 +88,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/sec1_3/ex1_41.clj" />
         <option value="$PROJECT_DIR$/src/sec1_1/sec_1_1_8.clj" />
+        <option value="$PROJECT_DIR$/src/sec1_3/ex1_41.clj" />
+        <option value="$PROJECT_DIR$/src/sec1_3/ex1_42.clj" />
       </list>
     </option>
   </component>
@@ -140,6 +150,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sicp-clojure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sicp-clojure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sicp-clojure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sec1_3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,7 +417,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sec1_3/ex1_41.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.26030368">
+        <state line="1" column="0" selection-start="19" selection-end="50" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sec1_3/ex1_42.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.3383948">
           <folding />
         </state>
       </provider>
