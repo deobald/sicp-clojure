@@ -3,13 +3,16 @@
 (defn square [num]
   (* num num))
 
-(defn compose [fn1 fn2]
-  #(fn1 (fn2 %)))
+(defn compose [f g]
+  #(f (g %)))
 
-(defn repeated [proc times]
-  (if (= times 2)
-    (compose proc proc)
-    (compose proc (repeated proc (- times 1)))))
+(defn repeated-inside [original-f f times]
+  (if (= times 1)
+    f
+    (recur original-f (comp original-f f) (dec times))))
+
+(defn repeated [f times]
+  (repeated-inside f f times))
 
 ((repeated square 2) 5)
 ; => 625
