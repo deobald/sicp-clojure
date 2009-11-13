@@ -60,10 +60,19 @@
   <component name="FileColors" enabled="false" enabledForTabs="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ex2_19.clj" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ex2_19.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_19.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="741" selection-end="741" vertical-scroll-proportion="0.7396963">
+            <state line="31" column="0" selection-start="0" selection-end="766" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ex2_20.clj" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_20.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.3253796">
               <folding />
             </state>
           </provider>
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_17.clj" />
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_18.clj" />
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_19.clj" />
+        <option value="$PROJECT_DIR$/src/sec2_2/ex2_20.clj" />
       </list>
     </option>
   </component>
@@ -267,7 +277,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Clojure Script.ex2_19">
+  <component name="RunManager" selected="Clojure Script.ex2_20">
     <configuration default="false" name="ex2_2" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="sicp-clojure" />
       <setting name="path" value="$PROJECT_DIR$/src/sec2_1/ex2_2.clj" />
@@ -304,6 +314,17 @@
     <configuration default="false" name="ex2_19" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="sicp-clojure" />
       <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_19.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/sec2_2" />
+      <setting name="repl" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ex2_20" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="sicp-clojure" />
+      <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_20.clj" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="$PROJECT_DIR$/src/sec2_2" />
@@ -433,11 +454,12 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Clojure Script.ex2_2" />
       <item index="1" class="java.lang.String" itemvalue="Clojure Script.ex2_17" />
       <item index="2" class="java.lang.String" itemvalue="Clojure Script.ex2_18" />
       <item index="3" class="java.lang.String" itemvalue="Clojure Script.ex2_19" />
+      <item index="4" class="java.lang.String" itemvalue="Clojure Script.ex2_20" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -569,7 +591,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_19.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="741" selection-end="741" vertical-scroll-proportion="0.7396963">
+        <state line="31" column="0" selection-start="0" selection-end="766" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_20.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.3253796">
           <folding />
         </state>
       </provider>
