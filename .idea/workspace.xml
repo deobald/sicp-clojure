@@ -60,28 +60,19 @@
   <component name="FileColors" enabled="false" enabledForTabs="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ex2_19.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_19.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="0" selection-end="766" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex2_20.clj" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ex2_20.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_20.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.3253796">
+            <state line="16" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex2_18.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_18.clj">
+      <file leaf-file-name="ex2_21.clj" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_21.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="23" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.45553145">
               <folding />
             </state>
           </provider>
@@ -107,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_18.clj" />
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_19.clj" />
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_20.clj" />
+        <option value="$PROJECT_DIR$/src/sec2_2/ex2_21.clj" />
       </list>
     </option>
   </component>
@@ -277,18 +269,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Clojure Script.ex2_20">
-    <configuration default="false" name="ex2_2" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="sicp-clojure" />
-      <setting name="path" value="$PROJECT_DIR$/src/sec2_1/ex2_2.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/sec2_1" />
-      <setting name="repl" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Clojure Script.ex2_21">
     <configuration default="false" name="ex2_17" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="sicp-clojure" />
       <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_17.clj" />
@@ -325,6 +306,17 @@
     <configuration default="false" name="ex2_20" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="sicp-clojure" />
       <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_20.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/sec2_2" />
+      <setting name="repl" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ex2_21" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="sicp-clojure" />
+      <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_21.clj" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="$PROJECT_DIR$/src/sec2_2" />
@@ -455,11 +447,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Clojure Script.ex2_2" />
-      <item index="1" class="java.lang.String" itemvalue="Clojure Script.ex2_17" />
-      <item index="2" class="java.lang.String" itemvalue="Clojure Script.ex2_18" />
-      <item index="3" class="java.lang.String" itemvalue="Clojure Script.ex2_19" />
-      <item index="4" class="java.lang.String" itemvalue="Clojure Script.ex2_20" />
+      <item index="0" class="java.lang.String" itemvalue="Clojure Script.ex2_17" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure Script.ex2_18" />
+      <item index="2" class="java.lang.String" itemvalue="Clojure Script.ex2_19" />
+      <item index="3" class="java.lang.String" itemvalue="Clojure Script.ex2_20" />
+      <item index="4" class="java.lang.String" itemvalue="Clojure Script.ex2_21" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -598,7 +590,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_20.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.3253796">
+        <state line="16" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_21.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.45553145">
           <folding />
         </state>
       </provider>
