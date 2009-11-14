@@ -60,28 +60,10 @@
   <component name="FileColors" enabled="false" enabledForTabs="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ex2_20.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_20.clj">
+      <file leaf-file-name="ex2_23.clj" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_23.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex2_21.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_21.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex2_22.clj" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_22.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="826" selection-end="826" vertical-scroll-proportion="0.9023861">
+            <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.03253796">
               <folding />
             </state>
           </provider>
@@ -109,6 +91,7 @@
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_20.clj" />
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_21.clj" />
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_22.clj" />
+        <option value="$PROJECT_DIR$/src/sec2_2/ex2_23.clj" />
       </list>
     </option>
   </component>
@@ -279,18 +262,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Clojure Script.ex2_21">
-    <configuration default="false" name="ex2_17" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="sicp-clojure" />
-      <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_17.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/sec2_2" />
-      <setting name="repl" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Clojure Script.ex2_23">
     <configuration default="false" name="ex2_18" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="sicp-clojure" />
       <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_18.clj" />
@@ -327,6 +299,17 @@
     <configuration default="false" name="ex2_21" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="sicp-clojure" />
       <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_21.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/sec2_2" />
+      <setting name="repl" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ex2_23" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="sicp-clojure" />
+      <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_23.clj" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="$PROJECT_DIR$/src/sec2_2" />
@@ -457,11 +440,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Clojure Script.ex2_17" />
-      <item index="1" class="java.lang.String" itemvalue="Clojure Script.ex2_18" />
-      <item index="2" class="java.lang.String" itemvalue="Clojure Script.ex2_19" />
-      <item index="3" class="java.lang.String" itemvalue="Clojure Script.ex2_20" />
-      <item index="4" class="java.lang.String" itemvalue="Clojure Script.ex2_21" />
+      <item index="0" class="java.lang.String" itemvalue="Clojure Script.ex2_18" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure Script.ex2_19" />
+      <item index="2" class="java.lang.String" itemvalue="Clojure Script.ex2_20" />
+      <item index="3" class="java.lang.String" itemvalue="Clojure Script.ex2_21" />
+      <item index="4" class="java.lang.String" itemvalue="Clojure Script.ex2_23" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -487,7 +470,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1420" height="860" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
@@ -502,7 +485,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1750547" sideWeight="0.6608108" order="0" side_tool="false" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" />
@@ -598,9 +581,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_20.clj">
+    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_22.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+        <state line="24" column="30" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -612,9 +595,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_22.clj">
+    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_20.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="826" selection-end="826" vertical-scroll-proportion="0.9023861">
+        <state line="16" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_23.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.03253796">
           <folding />
         </state>
       </provider>
