@@ -78,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex2_30.clj" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_30.clj">
+      <file leaf-file-name="ex2_31.clj" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_31.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="0.5444685">
+            <state line="14" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.45553145">
               <folding />
             </state>
           </provider>
@@ -97,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/sec1_3/ex1_44.clj" />
         <option value="$PROJECT_DIR$/src/sec2_1/ex2_2.clj" />
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_17.clj" />
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_18.clj" />
@@ -113,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_28.clj" />
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_29.clj" />
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_30.clj" />
+        <option value="$PROJECT_DIR$/src/sec2_2/ex2_31.clj" />
       </list>
     </option>
   </component>
@@ -229,18 +229,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Clojure Script.ex2_30">
-    <configuration default="false" name="ex2_25" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="sicp-clojure" />
-      <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_25.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/sec2_2" />
-      <setting name="repl" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Clojure Script.ex2_31">
     <configuration default="false" name="ex2_27" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="sicp-clojure" />
       <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_27.clj" />
@@ -277,6 +266,17 @@
     <configuration default="false" name="ex2_30" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="sicp-clojure" />
       <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_30.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/sec2_2" />
+      <setting name="repl" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ex2_31" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="sicp-clojure" />
+      <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_31.clj" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="$PROJECT_DIR$/src/sec2_2" />
@@ -407,11 +407,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Clojure Script.ex2_25" />
-      <item index="1" class="java.lang.String" itemvalue="Clojure Script.ex2_27" />
-      <item index="2" class="java.lang.String" itemvalue="Clojure Script.ex2_28" />
-      <item index="3" class="java.lang.String" itemvalue="Clojure Script.ex2_29" />
-      <item index="4" class="java.lang.String" itemvalue="Clojure Script.ex2_30" />
+      <item index="0" class="java.lang.String" itemvalue="Clojure Script.ex2_27" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure Script.ex2_28" />
+      <item index="2" class="java.lang.String" itemvalue="Clojure Script.ex2_29" />
+      <item index="3" class="java.lang.String" itemvalue="Clojure Script.ex2_30" />
+      <item index="4" class="java.lang.String" itemvalue="Clojure Script.ex2_31" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -493,11 +493,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sec1_3/ex1_44.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sec2_1/ex2_2.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="30" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" />
@@ -569,6 +564,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_30.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="0.5444685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_28.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="0" selection-end="470" vertical-scroll-proportion="0.0">
@@ -576,9 +578,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_30.clj">
+    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_31.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="0.5444685">
+        <state line="14" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.45553145">
           <folding />
         </state>
       </provider>
