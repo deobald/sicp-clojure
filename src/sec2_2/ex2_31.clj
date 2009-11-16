@@ -1,4 +1,4 @@
-(ns sec2_2.ex2_30
+(ns sec2_2.ex2_31
   (:use clojure.test))
 
 (defn square [x]

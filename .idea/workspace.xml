@@ -60,28 +60,10 @@
   <component name="FileColors" enabled="false" enabledForTabs="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ex2_27.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_27.clj">
+      <file leaf-file-name="ex2_32.clj" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_32.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex2_28.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_28.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="0" selection-end="470" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex2_31.clj" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_31.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.45553145">
+            <state line="27" column="99" selection-start="898" selection-end="898" vertical-scroll-proportion="0.64208245">
               <folding />
             </state>
           </provider>
@@ -97,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/sec2_1/ex2_2.clj" />
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_17.clj" />
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_18.clj" />
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_19.clj" />
@@ -113,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_29.clj" />
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_30.clj" />
         <option value="$PROJECT_DIR$/src/sec2_2/ex2_31.clj" />
+        <option value="$PROJECT_DIR$/src/sec2_2/ex2_32.clj" />
       </list>
     </option>
   </component>
@@ -229,18 +211,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Clojure Script.ex2_31">
-    <configuration default="false" name="ex2_27" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="sicp-clojure" />
-      <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_27.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/sec2_2" />
-      <setting name="repl" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Clojure Script.ex2_32">
     <configuration default="false" name="ex2_28" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="sicp-clojure" />
       <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_28.clj" />
@@ -277,6 +248,17 @@
     <configuration default="false" name="ex2_31" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="sicp-clojure" />
       <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_31.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/sec2_2" />
+      <setting name="repl" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ex2_32" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="sicp-clojure" />
+      <setting name="path" value="$PROJECT_DIR$/src/sec2_2/ex2_32.clj" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="$PROJECT_DIR$/src/sec2_2" />
@@ -407,11 +389,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Clojure Script.ex2_27" />
-      <item index="1" class="java.lang.String" itemvalue="Clojure Script.ex2_28" />
-      <item index="2" class="java.lang.String" itemvalue="Clojure Script.ex2_29" />
-      <item index="3" class="java.lang.String" itemvalue="Clojure Script.ex2_30" />
-      <item index="4" class="java.lang.String" itemvalue="Clojure Script.ex2_31" />
+      <item index="0" class="java.lang.String" itemvalue="Clojure Script.ex2_28" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure Script.ex2_29" />
+      <item index="2" class="java.lang.String" itemvalue="Clojure Script.ex2_30" />
+      <item index="3" class="java.lang.String" itemvalue="Clojure Script.ex2_31" />
+      <item index="4" class="java.lang.String" itemvalue="Clojure Script.ex2_32" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -437,10 +419,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1420" height="860" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
@@ -452,10 +435,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1750547" sideWeight="0.6608108" order="0" side_tool="false" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" />
     </layout>
@@ -493,18 +475,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sec2_1/ex2_2.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="30" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_27.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_25.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.55314535" />
@@ -550,13 +520,6 @@
         <state line="11" column="0" selection-start="0" selection-end="233" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_26.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="77" selection-end="191" vertical-scroll-proportion="0.22776572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_29.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="94" selection-start="2345" selection-end="2345" vertical-scroll-proportion="0.9023861">
@@ -571,6 +534,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_31.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_28.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="0" selection-end="470" vertical-scroll-proportion="0.0">
@@ -578,9 +548,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_31.clj">
+    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_27.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.45553145">
+        <state line="2" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_26.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="77" selection-end="191" vertical-scroll-proportion="0.22776572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sec2_2/ex2_32.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="99" selection-start="898" selection-end="898" vertical-scroll-proportion="0.64208245">
           <folding />
         </state>
       </provider>
