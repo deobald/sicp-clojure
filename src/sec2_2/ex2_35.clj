@@ -1,4 +1,4 @@
-(ns sec2_2.ex2_35
+(ns sec2_2.ex2_36
   (:use clojure.test))
 
 (defn accumulate [op initial sq]
@@ -7,12 +7,17 @@
      (op (first sq)
          (accumulate op initial (rest sq)))))
 
-(defn horner-eval [x coefficent-sequence]
- (accumulate (fn [this-coeff higher-terms] (+ this-coeff (* x higher-terms)) )
-             0
-             coefficent-sequence))
+(defn condense [x]
+  (cond (not (seq? x)) 1
+        (empty? x) 0
+        :default (+ (condense (first x)) (condense (rest x)))))
 
-(deftest test-horner-eval
- (is (= 79 (horner-eval 2 (list 1 3 0 5 0 1)))))
+(defn count-leaves [t]
+  (accumulate +
+              0
+              (map condense t)))
+
+(deftest should-count-all-leaf-nodes
+  (is (= 5 (count-leaves '((1 2) (3 4) 5)))))
 
 (run-tests)
