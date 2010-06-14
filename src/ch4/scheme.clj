@@ -1,7 +1,8 @@
 
 (ns ch4.scheme
   (:use ch4.scheme-helpers
-        ch4.environment))
+        ch4.environment
+        ch4.predicates))
 
 (declare execute-application
          primitive-procedure-names
@@ -33,8 +34,6 @@
     (my-eval (if-consequent exp) env)
     (my-eval (if-alternative exp) env)))
 
-(declare last-exp? first-exp rest-exps)
-
 (defn eval-sequence [exps env]
   (cond (last-exp? exps) (my-eval (first-exp exps) env)
         :else (do (my-eval (first-exp exps) env)
@@ -57,35 +56,11 @@
     env)
   'ok)
 
-(defn self-evaluating? [exp]
-  (or (number? exp)
-      (string? exp)
-      (and (seq? exp) (self-evaluating? (first exp)))))
-
-(defn variable? [exp]
-  (or (symbol? exp)
-      (= 'true exp)
-      (= 'false exp)))
-
-(defn tagged-list? [exp tag]
-  (if (seq? exp)
-    (= (first exp) tag)
-    false))
-
-(defn quoted? [exp]
-  (tagged-list? exp 'quote))
-
 (defn text-of-quotation [exp] (cadr exp))
-
-(defn assignment? [exp]
-  (tagged-list? exp 'set!))
 
 (defn assignment-variable [exp] (second exp))
 
 (defn assignment-value [exp] (nth exp 2))
-
-(defn definition? [exp]
-  (tagged-list? exp 'define))
 
 (defn definition-variable [exp]
   (if (symbol? (second exp))
@@ -100,16 +75,12 @@
     (make-lambda (rest (first (rest exp))) ; formal parameters
                  (rest (rest exp))))) ; body
 
-(defn lambda? [exp] (tagged-list? exp 'lambda))
-
 (defn lambda-parameters [exp] (second exp))
 
 (defn lambda-body [exp] (rest (rest exp)))
 
 (defn make-lambda [parameters body]
   (cons 'lambda (cons parameters body)))
-
-(defn if? [exp] (tagged-list? exp 'if))
 
 (defn if-predicate [exp] (cadr exp))
 
@@ -123,15 +94,7 @@
 (defn make-if [predicate consequent alternative]
   (list 'if predicate consequent alternative))
 
-(defn begin? [exp] (tagged-list? exp 'begin))
-
 (defn begin-actions [exp] (cdr exp))
-
-(defn last-exp? [xs] (null? (cdr xs)))
-
-(defn first-exp [xs] (car xs))
-
-(defn rest-exps [xs] (cdr xs))
 
 (defn make-begin [xs] (cons 'begin xs))
 
@@ -139,10 +102,6 @@
   (cond (null? xs) xs
         (last-exp? xs) (first-exp xs)
         :else (make-begin xs)))
-
-(defn pair? [x] (seq? x))
-
-(defn application? [exp] (pair? exp))
 
 (defn operator [exp] (car exp))
 
