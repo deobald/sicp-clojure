@@ -1,6 +1,8 @@
 
 (ns ch4.letting
-    (:use ch4.predicates))
+  (:use ch4.predicates
+        ch4.declarations
+        ch4.lambdas))
 
 (defn let? [exp]
   (tagged-list? exp 'let))
@@ -36,3 +38,23 @@
   (let [let-clauses (reverse (second exp))
         body (let-body exp)]
     (reduce #(make-let (list %2) %1) body let-clauses)))
+
+; define function
+; eval function with arguments
+(defn let->combination [exp]
+  (let [parameters (let-variables exp)
+        args (let-values exp)
+        body (let-body exp)]
+    (if (named-let? exp)
+      (sequence->exp
+       (list
+        (make-definition (let-name exp)
+                         parameters
+                         body)
+        (cons
+         (let-name exp)
+         args)))
+      (cons
+       (make-lambda (let-variables exp)
+                    (list (let-body exp)))
+       (let-values exp)))))

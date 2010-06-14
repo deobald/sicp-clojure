@@ -3,9 +3,10 @@
   (:use ch4.scheme-helpers
         ch4.environment
         ch4.predicates
+        ch4.declarations
+        ch4.lambdas
         ch4.letting
-        ch4.conditionals
-        ch4.declarations))
+        ch4.conditionals))
 
 (declare execute-application
          primitive-procedure-names
@@ -68,20 +69,11 @@
     (second exp)
     (first (first (rest exp)))))
 
-(declare make-lambda)
-
 (defn definition-value [exp]
   (if (symbol? (second exp))
     (nth exp 2)
     (make-lambda (rest (first (rest exp))) ; formal parameters
                  (rest (rest exp))))) ; body
-
-(defn lambda-parameters [exp] (second exp))
-
-(defn lambda-body [exp] (rest (rest exp)))
-
-(defn make-lambda [parameters body]
-  (cons 'lambda (cons parameters body)))
 
 (defn begin-actions [exp] (cdr exp))
 
@@ -107,30 +99,6 @@
 (defn procedure-body [p] (caddr p))
 
 (defn procedure-environment [p] (cadddr p))
-
-(defn make-definition [fn-name parameters body]
-  (list 'define (cons fn-name parameters) body))
-
-
-; define function
-; eval function with arguments
-(defn let->combination [exp]
-  (let [parameters (let-variables exp)
-        args (let-values exp)
-        body (let-body exp)]
-    (if (named-let? exp)
-      (sequence->exp
-       (list
-        (make-definition (let-name exp)
-                         parameters
-                         body)
-        (cons
-         (let-name exp)
-         args)))
-      (cons
-       (make-lambda (let-variables exp)
-                    (list (let-body exp)))
-       (let-values exp)))))
 
 (def primitive-procedures
      (list (list 'car car)
