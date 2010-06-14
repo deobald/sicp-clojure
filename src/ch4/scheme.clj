@@ -3,7 +3,9 @@
   (:use ch4.scheme-helpers
         ch4.environment
         ch4.predicates
-        ch4.letting))
+        ch4.letting
+        ch4.conditionals
+        ch4.declarations))
 
 (declare execute-application
          primitive-procedure-names
@@ -27,8 +29,6 @@
 ; Above function imposes a left to right ordering. If the
 ; assignments inside of let where switched it would be right
 ; to left
-
-(declare if-predicate if-alternative if-consequent)
 
 (defn eval-if [exp env]
   (if (my-eval (if-predicate exp) env)
@@ -83,26 +83,7 @@
 (defn make-lambda [parameters body]
   (cons 'lambda (cons parameters body)))
 
-(defn if-predicate [exp] (cadr exp))
-
-(defn if-consequent [exp] (caddr exp))
-
-(defn if-alternative [exp]
-  (if (not (nil? (cdddr exp)))
-    (cadddr exp)
-    'false))
-
-(defn make-if [predicate consequent alternative]
-  (list 'if predicate consequent alternative))
-
 (defn begin-actions [exp] (cdr exp))
-
-(defn make-begin [xs] (cons 'begin xs))
-
-(defn sequence->exp [xs]
-  (cond (null? xs) xs
-        (last-exp? xs) (first-exp xs)
-        :else (make-begin xs)))
 
 (defn operator [exp] (car exp))
 
@@ -113,53 +94,6 @@
 (defn first-operand [ops] (car ops))
 
 (defn rest-operands [ops] (cdr ops))
-
-(declare expand-clauses)
-(defn cond? [exp] (tagged-list? exp 'cond))
-
-(defn cond-clauses [exp] (cdr exp))
-
-(defn cond-predicate [clause] (car clause))
-
-(defn cond-else-clause? [clause]
-  (= (cond-predicate clause) 'else))
-
-(defn cond-actions [clause] (cdr clause))
-
-(defn cond->if [exp]
-  (expand-clauses (cond-clauses exp)))
-
-(defn extended-cond? [clause]
-  (and (list? clause)
-       (> (count clause) 2)
-       (= (second clause) '=>)))
-
-(defn extended-cond-test [clause]
-  (first clause))
-
-(defn extended-cond-recipient [clause]
-  (nth clause 2))
-
-(defn expand-clauses [clauses]
-  (if (null? clauses)
-    'false
-    (let [first-clause (car clauses)
-          rest-clauses (cdr clauses)]
-      (cond (cond-else-clause? first-clause)
-            (if (null? rest-clauses)
-              (sequence->exp (cond-actions first-clause))
-              (Error. (str "ELSE clause isn't last -- COND->IF"
-                            clauses)))
-            (extended-cond? first-clause)
-            (make-if (extended-cond-test first-clause)
-                     (list
-                      (extended-cond-recipient first-clause)
-                      (extended-cond-test first-clause))
-                     (expand-clauses rest-clauses))
-            :else
-            (make-if (cond-predicate first-clause)
-                     (sequence->exp (cond-actions first-clause))
-                     (expand-clauses rest-clauses))))))
 
 (declare scan-out-defines)
 (defn make-procedure [parameters body env]
